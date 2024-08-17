@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro .intro-contaner{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 25px;
+}
+
+.intro{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/antique-cafe-bg-01.jpg);
+    background-position: center;
+    background-size: cover;
+   
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    float: right;
+}
+
+nav li{
+    color: #CC9966;
+}
+
+nav li:hover{
+    border-bottom: 1px solid #CC9966;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right:30px ;
+    font-size: 20px;
+    cursor: pointer;
+    /* transition: 0.3s; */
+}
+
+.clear{
+    clear: both;
+}
+
+.content{
+    width: 50%;
+    height: 80;
+    margin-top: 10px;
+    padding: 50px;
+    text-align: center;   
+    margin: auto;
+
+}
+
+.content .head{
+    color: white;
+    margin: 0px 0px 20px;
+    padding: 48px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h3{
+    color: #CC9966;
+}
+
+.content .paragraph{
+    color: white;
+    margin: 0px 0px 20px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    font-size: 18px;
+}
+.content .paragraph p a {
+    text-decoration: none;
+    color: #FF6;
+}
+
+.button button{
+    color: #CC9966;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    font-size: 20px;
+    padding: 24px 32px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu{
+    width: 100%;
+    background-attachment: fixed;
+    background-image: url(../img/antique-cafe-bg-02.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.menu .container .menu-header h2{
+    background-color: white;
+    color: #544639;
+    padding: 10px;
+    text-align: center;
+    width: 350px;
+    border-radius: 5px;
+    margin: auto;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.menu .container .menu-header{
+    text-align: center;
+    padding:50px ;
+}
+
+.menu  .menu-content .items{
+    float: left;
+    padding: 60px;
+    width: 50%;
+}
+
+.menu ul{
+    list-style: none;
+    background-color: #544639;
+    margin: 40px;
+    border-radius: 20px;
+    padding: 40px 35px;
+}
+
+.menu ul li img{
+    border-radius: 10px;
+
+}
+
+.menu .menu-content .items .items-left li img{
+    float: left;
+    padding: 5px;
+}
+
+h4{
+    color: #FC6;
+    padding: 0.5px;
+    
+}
+
+p{
+    color: white;
+    padding: 5px;
+}
+
+
+
+
+
+.menu ul{
+    list-style: none;
+    background-color: #544639;
+    margin: 40px;
+    border-radius: 20px;
+    padding: 40px 35px;
+}
+
+.menu ul li img{
+    border-radius: 10px;
+}
+.menu .menu-content .items .items-right {
+    text-align: right;
+}
+.menu .menu-content .items .items-right li img{
+    float: right;
+    padding: 5px;
+}
+
+h4{
+    color: #FC6;
+    padding: 0.5px;
+    
+}
+
+p{
+    color: white;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+.about{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/antique-cafe-bg-03.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.about .container{
+    padding: 200px;
+}
+
+.about .container .about-left{
+    width: 50%;
+    float: left;
+}
+
+.about .container .about-right{
+    width: 50%;
+    float: right;
+
+}
+
+.about .container{
+    padding: 120px;
+    
+}
+
+.about .container .about-right .content-right .text{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 50px ;
+    border-radius: 10px;
+}
+
+
+
+.about .container .about-right .content-right .text h2{
+    color: #006666;
+    padding-bottom: 20px;
+}
+p{
+    color: black;
+}
+
+.about-right .content-right .text p a{
+    text-decoration: none;
+    color:  #066;
+}
+
+.about .container .about-right .content-right .text p{
+    padding: 20px;
+}
+
+.about .container .about-right .content-right{
+    padding-left: 50px;
+}
+
+.about .container .button-Contact{
+    padding-top: 10px;
+}
+
+.about .container .button-Contact button{
+    background-color: #006666;
+    color: white;
+    padding: 11px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.about .container .button-Contact button:hover{
+    background-color: #029a9a;
+}
+
+.contact{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/antique-cafe-bg-04.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.contact .container{
+    padding: 20px ;
+}
+
+.contact .container .contact-left{
+    width: 50%;
+    float: left;
+}
+.contact .container .contact-right{
+    width: 50%;
+    float: right;
+}
+
+.contact .container .contact-left .content .text{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 48px ;
+    border-radius: 5px;
+    width: 350px;
+}
+
+.contact .container .contact-left .content .text h2{
+    color: #006666;
+}
+
+.contact .container .contact-left .content .text p{
+    font-size: 18px;
+    line-height: 2;
+    width: 100%;
+}
+
+.contact .container .contact-left .content .text .tel a{
+    text-decoration: none;
+    color: #006666;   
+}
+
+.contact .container .contact-left .btn {
+    padding: 10px;
+    background-color: #006666;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    border: 0px;
+    margin-top: 10px;
+
+}
+
+.contact .container  .contact-left .content button:hover{
+    background-color: #029a9a;
+}
+
+.contact .container .contact-right .content{
+    margin-left: 20px;
+}
+
+.contact .container .contact-right .content form{
+    background-color:rgba(0, 0, 0, 0.7);
+    padding: 48px ;
+    border-radius: 10px;
+    width: 350px;
+}
+
+/* .contact .contact-right .content form .field {
+
+} */
+
+.contact .container .contact-right .content form .field{
+    border: none;
+    border-bottom: 1px solid #EABC61;
+    width: 100%;
+    margin: 16px;
+    padding: 16px 0px;
+    font-size: 18px;
+    outline: none;
+    background-color: transparent;
+    display: block;
+    color: white;
+    padding: 20px;
+
+}
+
+.contact .container .contact-right .content form .field:focus{
+    /* border: 5px solid #EABC61; */
+    /* box-shadow: outset #EABC61; */
+    /* box-shadow:  ; */
+    /* box-shadow:#006666 inset; */
+}
+
+.contact .contact-right .content .btn-holder{
+    text-align: right;
+}
+
+.contact .contact-right .content .btn-holder button{
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
+
+.contact .contact-right .content .btn-holder button:hover{
+    color: #EABC61;
+}
